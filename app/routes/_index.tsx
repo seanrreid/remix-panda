@@ -1,5 +1,5 @@
 import type { V2_MetaFunction } from '@remix-run/node';
-import { AstroPanda } from '~/components/AstroPanda';
+import { RemixPanda } from '~/components/RemixPanda';
 import { Figure } from '~/components/Figure';
 import { Icon } from '~/components/Icon';
 import { Grid } from '~/components/Grid';
@@ -8,7 +8,7 @@ import { CodeIcon } from '@pluralsight/icons';
 
 export const meta: V2_MetaFunction = () => {
     return [
-        { title: 'Panda Astronauts Remix' },
+        { title: 'Panda Remix' },
         { name: 'description', content: 'Because, why not?' },
     ];
 };
@@ -17,12 +17,10 @@ export default function Index() {
     return (
         <main>
             <Grid cols={1} style={{ justifyItems: 'center' }}>
-                <h1>
-                    Panda in Space <Icon icon={CodeIcon} />
-                </h1>
-                <h2>Because Panda Astronauts Are Awesome</h2>
+                <h1>DJ PandaMix</h1>
+                <h2>Because Pandas are Kinda Rad</h2>
                 <h3>Random Panda facts:</h3>
-                <p>
+                <p style={{ margin: '1rem 0' }}>
                     Facts from{' '}
                     <a
                         href='https://www.wwf.org.uk/learn/fascinating-facts/pandas'
@@ -55,7 +53,12 @@ export default function Index() {
                     <li>On average, pandas 💩 40 times a day</li>
                 </ol>
                 <Figure style={{ margin: '2rem auto 1rem', maxWidth: '20rem' }}>
-                    <AstroPanda />
+                    <RemixPanda />
+                    <figcaption>
+                        <a href='https://www.vecteezy.com/free-vector/illustration-design'>
+                            Illustration Design Vectors by Vecteezy
+                        </a>
+                    </figcaption>
                 </Figure>
             </Grid>
         </main>
