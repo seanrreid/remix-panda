@@ -14,9 +14,11 @@ module.exports = {
     ignoredRouteFiles: ['**/.*'],
     // See https://remix.run/docs/en/main/file-conventions/route-files-v2
     future: {
+        unstable_postcss: true,
+        unstable_tailwind: true,
+        v2_meta: true,
         v2_routeConvention: true,
+        v2_errorBoundary: true,
+        v2_normalizeFormMethod: true,
     },
-    // add your own custom config here if you want to.
-    //
-    // See https://remix.run/docs/en/v1/file-conventions/remix-config
 };
