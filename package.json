@@ -1,34 +1,37 @@
 {
-  "private": true,
-  "sideEffects": false,
-  "scripts": {
-    "build": "remix build",
-    "dev": "remix dev",
-    "start": "remix-serve build",
-    "typecheck": "tsc"
-  },
-  "dependencies": {
-    "@netlify/functions": "^1.6.0",
-    "@pluralsight/headless-styles": "^0.4.1",
-    "@pluralsight/icons": "^0.4.1",
-    "@remix-run/css-bundle": "^1.17.1",
-    "@remix-run/netlify": "^1.17.1",
-    "@remix-run/node": "^1.17.1",
-    "@remix-run/react": "^1.17.1",
-    "@remix-run/serve": "^1.17.1",
-    "isbot": "^3.6.8",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@remix-run/dev": "^1.17.1",
-    "@remix-run/eslint-config": "^1.17.1",
-    "@types/react": "^18.0.35",
-    "@types/react-dom": "^18.0.11",
-    "eslint": "^8.38.0",
-    "typescript": "^5.0.4"
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  }
+    "private": true,
+    "sideEffects": false,
+    "scripts": {
+        "build": "remix build",
+        "predev": "rimraf ./public/_redirects",
+        "dev": "remix dev",
+        "start": "netlify serve",
+        "typecheck": "tsc -b"
+    },
+    "dependencies": {
+        "@netlify/functions": "^1.3.0",
+        "@pluralsight/headless-styles": "^0.4.1",
+        "@pluralsight/icons": "^0.4.1",
+        "@remix-run/css-bundle": "^1.17.1",
+        "@remix-run/netlify": "^1.17.1",
+        "@remix-run/node": "^1.17.1",
+        "@remix-run/react": "^1.17.1",
+        "cross-env": "^7.0.3",
+        "isbot": "^3.6.10",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@remix-run/dev": "^1.17.1",
+        "@remix-run/eslint-config": "^1.17.1",
+        "@remix-run/serve": "^1.17.1",
+        "@types/react": "^18.0.35",
+        "@types/react-dom": "^18.0.11",
+        "eslint": "^8.38.0",
+        "rimraf": "^4.1.4",
+        "typescript": "^5.0.4"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
 }
