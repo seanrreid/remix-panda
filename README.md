@@ -21,7 +21,7 @@ Overall, the concept of "headless" styles is really slick. It's probably my favo
 
 The concept gets at a common painpoint I've run into with Design System adoption. Notably, this approach helps answer the question: "Why do we need a design system if we're already using [Tailwind, Chakra UI, Material UI, etc...]?"
 
-![Why Not Both?](https://tenor.com/view/why-not-both-why-not-take-both-gif-11478682)
+![Why Not Both?](https://github.com/seanrreid/remix-panda/blob/main/public/why-not-both-why-not.gif)
 
 It also feels very "developer friendly." Other than some import issues with Astro (which I suspect are more due to how Astro parses React than anything specific to Pando), it was a straightforward process. The types are clean, and extending the base into your own UI was dead simple.
 
