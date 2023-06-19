@@ -6,6 +6,8 @@ This was originally done with [Astro](https://astro.build), but didn't work out 
 
 As a result, the artist formerly known as "Astronaut Panda" is now "DJ PandaMix."
 
+Deployed on Netlify: [Panda Remix](https://panda-remix.netlify.app/)
+
 **NOTE:** I know the system is called "PandO" but I got "Panda" stuck in my head, so this whole thing is just a silly reference to pandas.
 Admittedly, giant bears are kinda rad, and red pandas are adorable, sooooo, there was no way I was going to change my mind once I started looking up Panda Astronaut and Panda DJ graphics.
 
