@@ -48,7 +48,7 @@ Here are some things I found myself reaching for that would be interesting to se
 ### General styling
 
 1. Leveraging the use of CSS Cascade Layers, the at-rule `@layer`.
-    - Most browsers are support `@layer` per [CanIUse](https://caniuse.com/?search=%40layer).
+    - Most browsers support `@layer` per [CanIUse](https://caniuse.com/?search=%40layer).
     - This is a feature that Shopify appears to be shipping by default in [Hydrogen](https://github.com/Shopify/hydrogen), which provides a degree of validation for using it in a production enviroment.
     - There is a polyfill for older browsers, so it's something that could be progressively enhanced.
     - The general idea here would be to use layers as a way to replace/extend/enhance certain "layers" based on an individuals needs.
