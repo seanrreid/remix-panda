@@ -57,7 +57,7 @@ Here are some things I found myself reaching for that would be interesting to se
 ### Maybes(?)
 
 These items are things I'm on the fence about. Some of them are items that feel like I'm asking for another UI Kit, which runs counter to the point of headless styles.
-However, I felt it was worth including them to see is there's a possible "third way" option. [insert Kobayashi Maru joke here]
+However, I felt it was worth including them to see if there's a possible "third way" option. [insert Kobayashi Maru joke here]
 
 -   The `Grid` component was a breeze to implement and extend. I tried the same thing with the `Flex` component, but found it wasn't exported.
     The ability to combine these two into a larger `Layout` component would be great, and prevent the uses cases where I most often reach for a UI Kit.
