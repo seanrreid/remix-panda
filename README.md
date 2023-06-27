@@ -76,3 +76,8 @@ existing demos, or simply walking through the structure of the monorepo.
 To circle back to accessibility, I think a lot of accessibility sadly falls by the wayside because it's seen as added work and not the default. I appreciate that accessibility is [a core principle of Pando](https://design.pluralsight.com/docs/learn/about-pando/a11y). Ideally this approach means that products built with Pando will be accessible, regardless of the personal approach of the person using the system.
 
 Thanks for coming to my ~~TED Talk~~ README ~~stream of consciousness~~ file.
+
+
+### EDIT 06/27/2023
+
+After looking at the documentation more, I think part of my original assessement suffers from my habit of "build first, RTFM later." My wishlist stands, but there are differences in the current vs. older docs that I missed initially.
