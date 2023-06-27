@@ -43,15 +43,15 @@ Here are some things I found myself reaching for that would be interesting to se
     - Notably, in addition to a pre-defined type scale, it also defines max-width in `ch` units to control line-length.
       Current WCAG Guidelines suggest [no more than 80 characters per line](<https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html#:~:text=Width%20is%20no%20more%20than%2080%20characters%20or%20glyphs%20(40%20if%20CJK).>).
     - The easier something is to implement, the more likely it will be implemented.
-      Having a ready-made option that follows WCAG guidance, like the recommended line-length, will make the developers' job easier, and insure content is accessible for all users.
+      Having a ready-made option that follows WCAG guidance, like the recommended line-length, will make the developers' job easier, and ensure content is accessible for all users.
 
 ### General styling
 
 1. Leveraging the use of CSS Cascade Layers, the at-rule `@layer`.
-    - Most browsers support `@layer` per [CanIUse](https://caniuse.com/?search=%40layer).
-    - This is a feature that Shopify appears to be shipping by default in [Hydrogen](https://github.com/Shopify/hydrogen), which provides a degree of validation for using it in a production enviroment.
+    - Most browsers are support `@layer` per [CanIUse](https://caniuse.com/?search=%40layer).
+    - This is a feature that Shopify appears to be shipping by default in [Hydrogen](https://github.com/Shopify/hydrogen), which provides a degree of validation for using it in a production environment.
     - There is a polyfill for older browsers, so it's something that could be progressively enhanced.
-    - The general idea here would be to use layers as a way to replace/extend/enhance certain "layers" based on an individuals needs.
+    - The general idea here would be to use layers as a way to replace/extend/enhance certain "layers" based on an individual's needs.
     - Layers wouldn't require a user to try to exclude options if they could just change what they need at each layer. This _should_ encapsulate changes enough that it doesn't have unintended side effects down the cascade.
 
 ### Maybes(?)
