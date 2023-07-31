@@ -11,6 +11,16 @@ Deployed on Netlify: [Panda Remix](https://panda-remix.netlify.app/)
 **NOTE:** I know the system is called "PandO" but I got "Panda" stuck in my head, so this whole thing is just a silly reference to pandas.
 Admittedly, giant bears are kinda rad, and red pandas are adorable, sooooo, there was no way I was going to change my mind once I started looking up Panda Astronaut and Panda DJ graphics.
 
+## EDIT 06/27/2023
+
+After looking at the documentation more, I think part of my original assessement suffers from my habit of "build first, RTFM later." My wishlist stands, but there are differences in the current vs. older docs that I missed initially.
+
+## EDIT 07/31/2023
+
+This project was part of an interview process at Pando. However, the process stalled at some point and I was pretty much ghosted 👻.
+
+After not hearing anything I decided to remove my name from the candidate list (although, I'm assuming that was already the case?).  As such, this project is 🪦.
+
 ## Development
 
 This repo is me playing around with some of the options from the Pando Design System.
@@ -77,7 +87,3 @@ To circle back to accessibility, I think a lot of accessibility sadly falls by t
 
 Thanks for coming to my ~~TED Talk~~ README ~~stream of consciousness~~ file.
 
-
-### EDIT 06/27/2023
-
-After looking at the documentation more, I think part of my original assessement suffers from my habit of "build first, RTFM later." My wishlist stands, but there are differences in the current vs. older docs that I missed initially.
